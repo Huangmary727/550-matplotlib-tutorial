@@ -21,12 +21,8 @@ module load miniconda
 conda activate bf550
 ```
 
-**The course environment does not include pandas.** Some notebooks here use it (01 does). If
-you want to run those, install pandas into your own copy of the environment:
-
-```bash
-conda install -n bf550 -c conda-forge pandas
-```
+Notebooks use only what that environment ships (NumPy and Matplotlib), so nothing extra
+needs installing.
 
 ## Cell tags
 
