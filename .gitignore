@@ -1,0 +1,13 @@
+# Jupyter
+.ipynb_checkpoints/
+__pycache__/
+
+# Figures saved while demoing (e.g. fig.savefig in the notebooks)
+*.png
+*.svg
+*.pdf
+!**/assets/**
+
+# Editors / OS
+.vscode/
+.DS_Store
